@@ -1,5 +1,7 @@
 # LCC Designer setup/installation
 
+The reason for creating a separate designer process from the standard ALM process was to provide the ability for designers to quickly respond to needed UI changes.  At present, when a UI change is needed it would take the UI designer a significantly shorter time than was needed to get the changes into Live.  For example, a change may take the designer a day to implement but due to that change having to go through the normal ALM process, it could at least take around 3 weeks to make it into Live, which is certainly not ideal, especially when dealing with a diverse array of devices and short-lived campaign sites, such as the German Christmas Market.  Furthermore, at present it is difficult to test the design on mobile devices until it has reached Live and then obviously go through the same process again to implement the fixes.
+
 In order to contribute to the designer workflow, you’ll need to set-up and configure the following:
 
 * VS Code
@@ -18,6 +20,7 @@ To install VS Code visit the following link: [https://code.visualstudio.com/Down
 We are using Git for our version control system.  Luckily, VS Code integrates quite nicely with Git straight out of the box, showing recent changes and being able to commit straight from the editor instead of having to use the command line.
  
 To install Git for Windows: [https://git-scm.com/download/win](https://git-scm.com/download/win)
+
 We use GitHub as our remote repository but in order for us to connect on the corporate network we need to add the following proxy settings in a command prompt:
 
 ```bash
