@@ -16,6 +16,14 @@ In order to contribute to the designer workflow, you’ll need to set-up and con
 Instead of using a fully-fledged IDE such as Visual Studio, we are using VS Code.  VS Code is a lightweight text editor that can be extended by installing a myriad of extensions that are available on the [Extension Marketplace](https://code.visualstudio.com/Docs/editor/extension-gallery).
 To install VS Code visit the following link: [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
 
+In order to be able to download the extenstions, you'll need to add the corporate proxy in VS Code:
+
+File -> Preferences -> User Settings
+
+```bash
+"http.proxy": "http://<domain>%5C<your username>:<your password>@<corporate-proxy>:<port>" 
+```
+
 ## Git
 We are using Git for our version control system.  Luckily, VS Code integrates quite nicely with Git straight out of the box, showing recent changes and being able to commit straight from the editor instead of having to use the command line.
  
